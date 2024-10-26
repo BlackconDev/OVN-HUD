@@ -84,7 +84,7 @@
 		"fieldName"		"QueueButton"
 		"xpos"			"c156"
 		"ypos"			"436"
-		"zpos"			"100"
+		"zpos"			"300"
 		"wide"			"170"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -294,7 +294,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"MOTDTitle"
-		"xpos"		"c57"
+		"xpos"		"c75"
 		"ypos"		"73"
 		"zpos"		"190"
 		"wide"		"300"
@@ -310,20 +310,21 @@
 	
 	"MOTDText"
 	{
-		"ControlName"	"Label"
+		"ControlName"		"Label"
 		"fieldName"		"MOTDText"
-		"xpos"			"c35"
-		"ypos"			"c-25"
-		"zpos"			"190"
-		"wide"			"302"
-		"tall"			"350"
+		"xpos"		"c35"
+		"ypos"		"c-174"
+		"zpos"		"190"
+		"wide"		"302"
+		"tall"		"350"
 		"proportionaltoparent"	"1"
-		"labeltext"		"Games Played: %stat_games%"
-		"textAlignment"	"north-west"
+		"labeltext"		"When you queue up for a casual match, you will"
+		"textAlignment"	"west"
 		"font"			"HudFontSmall"
 		"fgcolor_override"	"235 226 202 255"
+		
+		"mouseinputenabled"	"0"
 	}
-	
 	"MOTDText1"
 	{
 		"ControlName"		"Label"

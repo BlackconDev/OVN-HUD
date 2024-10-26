@@ -5,7 +5,7 @@
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NextMapVoting"
 		"xpos"			"cs-0.5"
-		"ypos"			"100"
+		"ypos"			"150"
 		"zpos"			"9999"
 		"wide"			"260"
 		"tall"			"80"

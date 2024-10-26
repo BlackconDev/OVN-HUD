@@ -9,36 +9,35 @@
 		"ypos"			"-5"
 		"zpos"			"-5"
 		"wide"			"f0"
-		"tall"			"300"
+		"tall"			"270"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"300"
+		"expanded_height"	"270"
 		"resize_time"	"0"	
 	}
-
+	
 	"TopBar"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TopBar"
 		"xpos"			"cs-0.5"
-		"ypos"			"50"
-		"zpos"			"45"
+		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"35"
+		"tall"			"55"
 		"visible"		"1"
 		"proportionaltoparent"	"0"
-		
+
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
+		
 		"QueueContainer"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"c100"
-			"ypos"			"100"
-			"zpos"			"1111"
+			"xpos"			"cs-0.5"
+			"ypos"			"-50"
+			"zpos"			"111"
 			"wide"			"220"
 			"tall"			"f0"
 			"visible"		"1"
@@ -48,11 +47,11 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"f0"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"0"
+				"wide"			"f4"
+				"tall"			"f3"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -67,7 +66,7 @@
 				"ypos"			"cs-0.5"
 				"zpos"			"0"
 				"wide"			"f4"
-				"tall"			"f4"
+				"tall"			"f3"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -125,7 +124,7 @@
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"33"
+				"xpos"			"42"
 				"ypos"			"1"
 				"wide"			"f55"
 				"zpos"			"100"
@@ -261,8 +260,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"JoinPartyLobbyContainer"
-			"xpos"			"c100"
-			"ypos"			"50"
+			"xpos"			"cs-0.5"
+			"ypos"			"-80"
 			"zpos"			"110"
 			"wide"			"220"
 			"tall"			"f0"
@@ -357,6 +356,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
+
 		"QuitButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -472,15 +472,16 @@
 				"drawcolor_override" "TanLight"
 			}
 		}
+	
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"0"
+			"xpos"			"rs1-31"
 			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
+			"zpos"			"100"
+			"wide"			"115"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
@@ -504,13 +505,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"0 0 0 0"
+			"defaultBgColor_override"	"0 0 0 0"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "0 0 0 0"
+			"armedFgColor_override" "0 0 0 0"
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"0 0 0 0"
 
 			"SubImage"
 			{

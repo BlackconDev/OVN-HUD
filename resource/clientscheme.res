@@ -511,7 +511,7 @@ Scheme
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+
 				"antialias"	"1"
 			}
 			"6"
@@ -591,7 +591,6 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -646,7 +645,6 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -692,7 +690,6 @@ Scheme
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -2248,7 +2245,6 @@ Scheme
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}

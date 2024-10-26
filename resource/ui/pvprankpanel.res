@@ -4,12 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-		"xpos"			"c0"
-		"ypos"			"c0"
+		"xpos"			"65"
+		"ypos"			"15"
 		"zpos"			"3"		
-		"tall"			"500"
-		"wide"			"500"
-		"visible"		"1"
+		"wide"			"f0"
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
 
@@ -66,8 +65,8 @@
 			{
 				"xpos"		"cs-0.5-228"
 				"ypos"		"cs-0.5"
-				"wide"		"o1"
-				"tall"		"p0.12"
+				"wide"		"200"
+				"tall"		"200"
 			}
 
 			"paintbackground"	"0"
@@ -86,6 +85,11 @@
 				"origin_y"		"0"
 				"origin_z"		"0"
 				"spotlight"	"1"
+
+				if_mini
+				{
+					"origin_x"		"55"
+				}
 
 				"animation"
 				{
@@ -118,6 +122,11 @@
 			"proportionaltoparent"	"1"
 
 			"paintbackground"	"0"
+
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -172,6 +181,7 @@
 		}
 	}
 
+
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -180,7 +190,7 @@
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
-		"tall"			"f0"
+		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -197,11 +207,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"-3"
+			"xpos"			"88"
+			"ypos"			"5"
 			"wide"			"f0"
 			"zpos"			"100"
-			"tall"			"35"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
@@ -209,27 +219,23 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
-			
+
 			if_mini
 			{
-				"xpos"			"67"
-				"ypos"			"60"
-				"tall"			"35"
-				"wide"			"505"
+				"visible"	"0"
 			}
-
 		}
 
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
+			"xpos"			"88"
 			"ypos"			"19"
 			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"f0"
-			"visible"		"0"
+			"tall"			"20"
+			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"TanLight"
@@ -241,7 +247,6 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"visible"		"1"
 			}
 
 			"fonts"
@@ -256,11 +261,11 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
+			"xpos"			"70"
 			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"f0"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallestBold"
@@ -273,7 +278,6 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"visible"		"1"
 			}
 
 			"fonts"
@@ -298,13 +302,12 @@
 			"ypos"			"0"
 			"wide"			"f70"
 			"tall"			"f0"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"			"rs1-10"
-				"ypos"			"-45"
+				"ypos"			"0"
 				"wide"			"p0.85"
 			}
 
@@ -312,17 +315,14 @@
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.5"
-				"ypos"			"2"
-				"wide"			"p1"
+				"xpos"			"c-95"
+				"ypos"			"rs2.2"
+				"wide"			"190"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
-				
-				if_mini
-				{
-					"ypos"			"-10"
-				}
-				
+
+	
+
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"
@@ -332,18 +332,13 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
+					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
-				
-					if_mini
-					{
-						"visible"		"1"
-					}
 				}
 
 				"NextLevelXPLabel"
@@ -355,18 +350,13 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
+					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
-					
-					if_mini
-					{
-						"visible"		"1"
-					}
 				}
 
 				"ProgressBarsContainer"
@@ -378,12 +368,7 @@
 					"wide"			"p1"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
-					
-					if_mini
-					{
-						"ypos"		"30"
-					}
-					
+
 					"ProgressBar"
 					{
 						"ControlName"	"ProgressBar"
@@ -429,6 +414,7 @@
 				}
 			}
 
+
 			"Stats"
 			{
 				"ControlName"	"EditablePanel"
@@ -443,7 +429,7 @@
 
 				"if_mini"
 				{
-					"visible"		"1"
+					"visible"		"0"
 				}
 
 				"Frame"
