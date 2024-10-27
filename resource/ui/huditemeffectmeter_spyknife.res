@@ -1,12 +1,13 @@
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
+
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r320"	[$WIN32]
-		"ypos"			"r184"	[$WIN32]
+		"xpos"			"c43"	[$WIN32]
+		"ypos"			"c62"	[$WIN32]
 		"wide"			"120"
 		"tall"			"50"
 		"MeterFG"		"White"

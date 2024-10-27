@@ -186,7 +186,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
+		"xpos"			"c-199"
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
@@ -316,7 +316,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"c-95"
-				"ypos"			"rs2.2"
+				"ypos"			"rs2.3"
 				"wide"			"190"
 				"tall"			"30"
 				"proportionaltoparent"	"1"

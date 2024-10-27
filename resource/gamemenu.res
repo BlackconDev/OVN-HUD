@@ -105,6 +105,6 @@
 		"label"			"#MMenu_StartPlaying"
 		"command"		"find_game"
 		"subimage"		"glyph_multiplayer"
-		"OnlyAtMenu		"1"
+		"OnlyAtMenu"	"1"
 	}
 }
