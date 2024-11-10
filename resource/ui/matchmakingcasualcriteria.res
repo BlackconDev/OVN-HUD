@@ -7,7 +7,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"p0.98"
+		"wide"			"p0.99"
 		"tall"			"p2"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -15,48 +15,12 @@
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
-		"RankImage"
-		{
-			"ControlName"	"CTFLocalPlayerBadgePanel"
-			"fieldName"		"RankImage"
-			"xpos"			"-13"
-			"ypos"			"-18"
-			"zpos"			"110"
-			"wide"			"75"
-			"tall"			"75"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Casual_12v12"
-		}
-	
-		"RankPanel"
-		{
-			"ControlName"	"CPvPRankPanel"
-			"fieldName"		"RankPanel"
-			"xpos"			"25"
-			"ypos"			"-35"
-			"zpos"			"100"
-			"wide"			"330"
-			"tall"			"125"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Casual_12v12"
-
-			"show_model"	"0"
-			"show_name"		"0"
-		}
-
+		
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-49"
+			"xpos"			"rs1-29"
 			"ypos"			"49"
 			"zpos"			"100"
 			"wide"			"15"
@@ -99,7 +63,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-29"
+			"xpos"			"rs1-9"
 			"ypos"			"49"
 			"zpos"			"100"
 			"wide"			"15"
@@ -149,8 +113,8 @@
 			"tall"			"o1"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"?"
 			"font"			"HudFontSmallBold"
@@ -186,11 +150,11 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"		"10"
-			"ypos"		"33"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
+			"xpos"			"c-300"
+			"ypos"			"49"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"

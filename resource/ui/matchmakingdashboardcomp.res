@@ -21,7 +21,7 @@
 			"ypos"		"20"
 			"zpos"		"99"
 			"wide"		"f0"
-			"tall"		"20"
+			"tall"		"28"
 			"proportionaltoparent"	"1"
 			"labeltext"		"Quickplay!"
 			"textAlignment"	"west"

@@ -8,7 +8,7 @@
 		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"1002"
-		"wide"			"f1"
+		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -31,7 +31,44 @@
 		
 		"mouseinputenabled"	"0"
 	}
+	
+	"RankModel"
+	{
+		"ControlName"	"CTFLocalPlayerBadgePanel"
+		"fieldName"		"RankModel"
+		"xpos"			"-85"
+		"ypos"			"55"
+		"zpos"			"110"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"show_model"	"1"
+	}
+	
+	"RankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"xpos"			"-75"
+		"ypos"			"55"
+		"zpos"			"330"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
 
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		
+		"use_mini" 		"1"
+		"show_name"		"1"
+	}
+	
 	"criteria"
 	{
 		"ControlName"	"CCasualCriteriaPanel"
@@ -45,22 +82,36 @@
 		"proportionaltoparent"	"1"
 	}
 	
-	"Panel"
+	"MapBackground"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Panel"
+		"fieldName"		"MapBackground"
 		"xpos"			"127"
-		"ypos"			"75"
+		"ypos"			"125"
 		"zpos"			"99"
 		"wide"			"267"
-		"tall"			"336"
+		"tall"			"285"
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"border"		"MainMenuBGBorder"
 	}
-
+	"RankBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBackground"
+		"xpos"			"127"
+		"ypos"			"75"
+		"zpos"			"99"
+		"wide"			"500"
+		"tall"			"50"
+		"visible"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"0"
+		"border"		"MainMenuBGBorder"
+	}
 	"ToolTipButtonHack"
 	{
 		"ControlName"	"EditablePanel"
@@ -82,7 +133,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"c156"
+		"xpos"			"c106"
 		"ypos"			"436"
 		"zpos"			"300"
 		"wide"			"170"
@@ -162,7 +213,7 @@
 		"ypos"			"-40"
 		"zpos"			"80"
 		"wide"			"1120"
-		"tall"			"1120" 
+		"tall"			"1120"  
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"/replay/thumbnails/mm/background"
@@ -230,70 +281,70 @@
 		"scaleImage"	"1"
 	}
 	
-		"MOTDBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MOTDBG"
-			"xpos"			"c10"
-			"ypos"			"76"
-			"zpos"			"185"
-			"visible"		"0"
-			"wide"			"300"
-			"tall"			"333"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"/replay/thumbnails/mm/something"
-			"scaleImage"	"1"
-		}
-		
-		"MOTDBG2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MOTDBG2"
-			"xpos"			"c10"
-			"ypos"			"76"
-			"zpos"			"184"
-			"visible"		"0"
-			"wide"			"300"
-			"tall"			"333"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"/replay/thumbnails/mm/something"
-			"scaleImage"	"1"
-		}
-		
-		"MOTDBG3"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MOTDBG3"
-			"xpos"			"c10"
-			"ypos"			"76"
-			"zpos"			"184"
-			"visible"		"0"
-			"wide"			"300"
-			"tall"			"333"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"/replay/thumbnails/mm/something"
-			"scaleImage"	"1"
-		}
-		
+	"MOTDBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MOTDBG"
+		"xpos"			"c10"
+		"ypos"			"76"
+		"zpos"			"185"
+		"visible"		"0"
+		"wide"			"300"
+		"tall"			"333"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"/replay/thumbnails/mm/something"
+		"scaleImage"	"1"
+	}
+	
+	"MOTDBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MOTDBG2"
+		"xpos"			"c10"
+		"ypos"			"76"
+		"zpos"			"184"
+		"visible"		"0"
+		"wide"			"300"
+		"tall"			"333"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"/replay/thumbnails/mm/something"
+		"scaleImage"	"1"
+	}
+	
+	"MOTDBG3"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MOTDBG3"
+		"xpos"			"c10"
+		"ypos"			"76"
+		"zpos"			"184"
+		"visible"		"0"
+		"wide"			"300"
+		"tall"			"333"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"/replay/thumbnails/mm/something"
+		"scaleImage"	"1"
+	}
+	
 	"ImageMercenaries"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ImageMercenaries"
-			"xpos"			"c55"
-			"ypos"			"70"
-			"zpos"			"186"
-			"visible"		"0"
-			"wide"			"200"
-			"tall"			"200"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"/replay/thumbnails/mm/mercs"
-			"scaleImage"	"1"
-		}
-		
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ImageMercenaries"
+		"xpos"			"c55"
+		"ypos"			"70"
+		"zpos"			"186"
+		"visible"		"0"
+		"wide"			"200"
+		"tall"			"200"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"/replay/thumbnails/mm/mercs"
+		"scaleImage"	"1"
+	}
+	
 	"MOTDTitle"
 	{
 		"ControlName"		"Label"
@@ -444,7 +495,7 @@
 		
 		"mouseinputenabled"	"0"
 	}
-		
+	
 	"LearnMore"
 	{
 		"ControlName"	"CExButton"
