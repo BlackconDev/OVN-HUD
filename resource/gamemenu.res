@@ -52,7 +52,6 @@
 		"label"			""
 		"command"		"OpenCreateMultiplayerGameDialog"
 		"subimage"		"glyph_create"
-		"OnlyAtMenu"	"1"
 		"tooltip"		"#GameUI_GameMenu_CreateServer"
 	}
 
@@ -94,17 +93,48 @@
 
 	"ChangeServerButton"
 	{
-		"label"			"#MMenu_ChangeServer"
-		"command"		"find_game"
+		"label"			"Change Server"
+		"command"		" "
 		"subimage"		"glyph_multiplayer"
 		"OnlyInGame"	"1"
 	}
 
 	"StartPlayingButton"
 	{
-		"label"			"#MMenu_StartPlaying"
-		"command"		"find_game"
+		"label"			"Play Team Fortress!"
+		"command"		" "
 		"subimage"		"glyph_multiplayer"
 		"OnlyAtMenu"	"1"
+	}
+	
+	"PlayButton"
+	{
+		"label"			"Play Team Fortress!"
+		"command"		"PlayCasual"
+		"subimage"		"glyph_multiplayer"
+	}
+	"BGMVMButton"
+	{
+	    "label"         "Robots!" 
+		"command"       " "
+		"subimage"      "glyph_coop"
+	}
+	"MVMButton"
+	{
+	    "label"         "Robots!" 
+		"command"       "PlayMvM"
+		"subimage"      "glyph_coop"
+	}
+	"QuickplayButton"
+	{
+	    "label"         "Quickplay!" 
+		"command"       "PlayCompetitive"
+		"subimage"      "glyph_vr"
+	}
+	"BGQuickplayButton"
+	{
+	    "label"         "Quickplay!" 
+		"command"       " "
+		"subimage"      "glyph_vr"
 	}
 }

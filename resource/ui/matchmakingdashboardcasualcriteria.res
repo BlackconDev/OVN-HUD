@@ -81,6 +81,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
+
 	
 	"MapBackground"
 	{
