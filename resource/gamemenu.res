@@ -93,15 +93,14 @@
 
 	"ChangeServerButton"
 	{
-		"label"			"Change Server"
+		"label"			"Start Playing!"
 		"command"		" "
 		"subimage"		"glyph_multiplayer"
 		"OnlyInGame"	"1"
 	}
-
 	"StartPlayingButton"
 	{
-		"label"			"Play Team Fortress!"
+		"label"			"Start Playing!"
 		"command"		" "
 		"subimage"		"glyph_multiplayer"
 		"OnlyAtMenu"	"1"
@@ -109,7 +108,7 @@
 	
 	"PlayButton"
 	{
-		"label"			"Play Team Fortress!"
+		"label"			"Start Playing!"
 		"command"		"PlayCasual"
 		"subimage"		"glyph_multiplayer"
 	}
@@ -125,7 +124,7 @@
 		"command"       "PlayMvM"
 		"subimage"      "glyph_coop"
 	}
-	"QuickplayButton"
+	"QuickButton"
 	{
 	    "label"         "Quickplay!" 
 		"command"       "PlayCompetitive"

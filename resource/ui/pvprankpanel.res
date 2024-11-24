@@ -11,7 +11,12 @@
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
-
+		
+		if_mini
+		{
+			"visible" 		"0"
+			"xpos"			"99999"
+		}
 		"BelowModelParticlePanel"
 		{
 			"ControlName"	"CTFParticlePanel"
@@ -26,7 +31,8 @@
 
 			if_mini
 			{
-				"xpos"		"cs-0.5-228"
+				"visible" 		"0"
+				"xpos"			"99999"
 			}
 
 			"ParticleEffects"
@@ -63,11 +69,8 @@
 
 			if_mini
 			{
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"0"		
-				"wide"			"o1"
-				"tall"			"p0.12"
+				"visible" 		"0"
+				"xpos"			"99999"
 			}
 
 			"paintbackground"	"0"
@@ -89,7 +92,8 @@
 
 				if_mini
 				{
-					"origin_x"		"55"
+					"visible" 		"0"
+					"xpos"			"99999"
 				}
 
 				"animation"
@@ -126,7 +130,8 @@
 
 			if_mini
 			{
-				"xpos"		"cs-0.5"
+				"visible" 		"0"
+				"xpos"			"99999"
 			}
 
 			"ParticleEffects"
@@ -180,6 +185,12 @@
 
 			"paintbackground"	"0"
 			"backgroundenabled"	"0"
+			
+			if_mini
+			{
+				"visible" 		"0"
+				"xpos"			"99999"
+			}
 		}
 	}
 
@@ -199,10 +210,8 @@
 
 		if_mini
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
+			"visible" 		"0"
+			"xpos"			"99999"
 		}
 
 		"NameLabel"
@@ -225,6 +234,7 @@
 			if_mini
 			{
 				"visible"	"0"
+				"xpos"			"99999"
 			}
 		}
 
@@ -247,8 +257,8 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"visible" 		"0"
+				"xpos"			"99999"
 			}
 
 			"fonts"
@@ -278,8 +288,8 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"visible" 		"0"
+				"xpos"			"99999"
 			}
 
 			"fonts"
@@ -308,9 +318,8 @@
 
 			if_mini
 			{
-				"xpos"			"c85"
-				"ypos"			"0"
-				"wide"			"p0.85"
+				"visible" 		"0"
+				"xpos"			"99999"
 			}
 
 			"XPBar"
@@ -326,12 +335,9 @@
 				
 				if_mini
 				{
-					"xpos"			"c-125"
-					"ypos"			"50"
-					"wide"			"190"
-					"tall"			"30"
+					"visible"		"0"
+					"xpos"			"99999"
 				}
-	
 
 				"CurrentXPLabel"
 				{
@@ -349,6 +355,12 @@
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"visible" 		"0"
+						"xpos"			"99999"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -367,6 +379,12 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"visible" 		"0"
+						"xpos"			"99999"
+					}
 				}
 
 				"ProgressBarsContainer"
@@ -378,7 +396,7 @@
 					"wide"			"p1"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
-
+					
 					"ProgressBar"
 					{
 						"ControlName"	"ProgressBar"
@@ -427,18 +445,18 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"c-100"
+				"xpos"			"c-90"
 				"ypos"			"5"
 				"zpos"			"-60"
-				"wide"			"225"
-				"tall"			"35"
+				"wide"			"255"
+				"tall"			"40"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
 
-				"if_mini"
+				if_mini
 				{
-					"visible"		"1"
+					"visible"		"0"
 				}
 
 				"Frame"
@@ -448,8 +466,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"10"
-					"wide"			"225"
-					"tall"			"35"
+					"wide"			"255"
+					"tall"			"40"
 					"proportionaltoparent"	"1"
 					"border"		"InnerShadowBorder"
 				}
@@ -460,7 +478,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
 					"xpos"			"10"
-					"ypos"			"2"
+					"ypos"			"4"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -478,7 +496,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
 					"xpos"			"10"
-					"ypos"			"12"
+					"ypos"			"14"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -496,7 +514,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
 					"xpos"			"10"
-					"ypos"			"22"
+					"ypos"			"24"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -515,7 +533,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
 					"xpos"			"c20"
-					"ypos"			"2"
+					"ypos"			"4"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -533,7 +551,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
 					"xpos"			"c20"
-					"ypos"			"12"
+					"ypos"			"14"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -550,7 +568,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
 					"xpos"			"c20"
-					"ypos"			"22"
+					"ypos"			"24"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"

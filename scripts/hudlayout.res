@@ -1337,7 +1337,7 @@
 	{
 		"fieldName"		"CHudVote"
 		"xpos"			"0"			
-		"ypos"			"c100"
+		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"1"

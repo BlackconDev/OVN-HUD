@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
-		"xpos"			"127"
+		"xpos"			"c-258"
 		"ypos"			"83"
 		"zpos"			"100"
 		"wide"			"267"
@@ -82,12 +82,122 @@
 		"proportionaltoparent"	"1"
 	}
 
+	"FriendsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"FriendsLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"Friends"
+		"textAlignment"	"west"
+		"xpos"			"c25"
+		"ypos"			"125"
+		"zpos"			"100"
+		"wide"			"140"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"235 227 203 255"
+
+	}	
 	
+	"FriendsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
+		"xpos"			"c16"
+		"ypos"			"125"
+		"zpos"			"100"
+		"wide"			"260"
+		"tall"			"285"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"PaintBackgroundType"	"0"
+
+		"border"		"MainMenuBGBorder"
+
+		"InnerShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"InnerShadow"
+			"xpos"			"8"
+			"ypos"			"26"
+			"zpos"			"900"
+			"wide"			"239"
+			"tall"			"248"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"paintborder"	"1"
+			"border"		"InnerShadowBorder"
+		}
+
+		"SteamFriendsList"
+		{
+			"ControlName"	"CSteamFriendsListPanel"
+			"fieldname"		"SteamFriendsList"
+			"xpos"			"cs-0.5"
+			"ypos"			"26"
+			"zpos"			"901"
+			"wide"			"f10"
+			"tall"			"238"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"columns_count"	"2"
+			"inset_x"		"10"
+			"inset_y"		"5"
+			"row_gap"		"5"
+			"column_gap"	"10"
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"110"
+				"tall"		"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1-5"
+				"ypos"			"10"
+				"tall"			"f0"
+				"wide"			"4"
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"TanDark"
+				}
+
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
+		}
+	}
 	"MapBackground"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapBackground"
-		"xpos"			"127"
+		"xpos"			"c-258"
 		"ypos"			"125"
 		"zpos"			"99"
 		"wide"			"267"
@@ -102,10 +212,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBackground"
-		"xpos"			"127"
+		"xpos"			"c-258"
 		"ypos"			"75"
 		"zpos"			"99"
-		"wide"			"500"
+		"wide"			"535"
 		"tall"			"50"
 		"visible"		"1"
 		"pinCorner"		"0"
@@ -172,10 +282,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ExitButton"
-		"xpos"			"c-300"
+		"xpos"			"c-258"
 		"ypos"			"436"
 		"zpos"			"201"
-		"wide"			"130"
+		"wide"			"170"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -280,258 +390,5 @@
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}
-	
-	"MOTDBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MOTDBG"
-		"xpos"			"c10"
-		"ypos"			"76"
-		"zpos"			"185"
-		"visible"		"0"
-		"wide"			"300"
-		"tall"			"333"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"/replay/thumbnails/mm/something"
-		"scaleImage"	"1"
-	}
-	
-	"MOTDBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MOTDBG2"
-		"xpos"			"c10"
-		"ypos"			"76"
-		"zpos"			"184"
-		"visible"		"0"
-		"wide"			"300"
-		"tall"			"333"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"/replay/thumbnails/mm/something"
-		"scaleImage"	"1"
-	}
-	
-	"MOTDBG3"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MOTDBG3"
-		"xpos"			"c10"
-		"ypos"			"76"
-		"zpos"			"184"
-		"visible"		"0"
-		"wide"			"300"
-		"tall"			"333"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"/replay/thumbnails/mm/something"
-		"scaleImage"	"1"
-	}
-	
-	"ImageMercenaries"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ImageMercenaries"
-		"xpos"			"c55"
-		"ypos"			"70"
-		"zpos"			"186"
-		"visible"		"0"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"/replay/thumbnails/mm/mercs"
-		"scaleImage"	"1"
-	}
-	
-	"MOTDTitle"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDTitle"
-		"xpos"		"c75"
-		"ypos"		"73"
-		"zpos"		"190"
-		"visible"		"0"
-		"wide"		"300"
-		"tall"		"50"
-		"proportionaltoparent"	"1"
-		"labeltext"		"Welcome to Casual!"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumSmallBold"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	
-	"MOTDText"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDText"
-		"xpos"		"c35"
-		"ypos"		"c-174"
-		"zpos"		"190"
-		"visible"		"0"
-		"wide"		"302"
-		"tall"		"350"
-		"proportionaltoparent"	"1"
-		"labeltext"		"When you queue up for a casual match, you will"
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	"MOTDText1"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDText"
-		"xpos"		"c35"
-		"ypos"		"c-160" //14
-		"zpos"		"190"
-		"visible"		"0"
-		"wide"		"302"
-		"tall"		"350"
-		"proportionaltoparent"	"1"
-		"labeltext"		"be matched into a 12v12 game based on the"
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	
-	"MOTDText2"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDText"
-		"xpos"		"c35"
-		"ypos"		"c-146"
-		"zpos"		"190"
-		"visible"		"0"
-		"wide"		"302"
-		"tall"		"350"
-		"proportionaltoparent"	"1"
-		"labeltext"		"game modes you've selected. If empty slots"
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	
-	"MOTDText3"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDText"
-		"xpos"		"c35"
-		"ypos"		"c-132"
-		"zpos"		"190"
-		"visible"		"0"
-		"wide"		"302"
-		"tall"		"350"
-		"proportionaltoparent"	"1"
-		"labeltext"		"are available on a server, players may connect"
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	
-	"MOTDText3"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDText"
-		"xpos"		"c35"
-		"ypos"		"c-118"
-		"zpos"		"190"
-		"visible"		"0"
-		"wide"		"302"
-		"tall"		"350"
-		"proportionaltoparent"	"1"
-		"labeltext"		"into a match in progress."
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	
-	"MOTDText4"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDText"
-		"xpos"		"c35"
-		"ypos"		"c-94" //24
-		"zpos"		"190"
-		"visible"		"0"
-		"wide"		"302"
-		"tall"		"350"
-		"proportionaltoparent"	"1"
-		"labeltext"		"Additionally if you lose connection to the server,"
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	
-	"MOTDText5"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"MOTDText"
-		"xpos"		"c35"
-		"ypos"		"c-80"
-		"zpos"		"190"
-		"wide"		"302"
-		"visible"		"0"
-		"tall"		"350"
-		"proportionaltoparent"	"1"
-		"labeltext"		"you may rejoin the Casual match in progress."
-		"textAlignment"	"west"
-		"font"			"HudFontSmall"
-		"fgcolor_override"	"235 226 202 255"
-		
-		"mouseinputenabled"	"0"
-	}
-	
-	"LearnMore"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"LearnMore"
-		"xpos"			"c81"
-		"ypos"			"362"
-		"zpos"			"190"
-		"wide"			"125"
-		"tall"			"29"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"url https://wiki.teamfortress.com/wiki/Casual_Mode"
-		"proportionaltoparent"	"1"
-		"labelText"		"Learn More"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"1"
-		
-		"sound_armed"		"UI/buttonrollover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-	
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
 	}
 }

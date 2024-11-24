@@ -359,17 +359,29 @@
 	"Hidder3"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Hidder2"
-		"xpos"			"c-43"
-		"ypos"			"7"
+		"fieldName"		"Hidder3"
+		"xpos"			"c-206"
+		"ypos"			"26"
 		"zpos"			"-9"
-		"wide"			"80"
-		"tall"			"53"
+		"wide"			"100"
+		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 255"
 	}
-	
+	"Hidder4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Hidder4"
+		"xpos"			"c-39"
+		"ypos"			"7"
+		"zpos"			"-9"
+		"wide"			"80"
+		"tall"			"50"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"46 43 42 255"
+	}
 	"AvatarBGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1670,119 +1682,6 @@
 			}
 		}
 	}
-		
-	"FriendsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"FriendsLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"Friends"
-		"textAlignment"	"west"
-		"xpos"			"c-281"
-		"ypos"			"276"
-		"zpos"			"2"
-		"wide"			"140"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"235 227 203 255"
-
-	}	
-		
-	"FriendsContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
-		"xpos"			"c-290"
-		"ypos"			"276"
-		"zpos"			"1"
-		"wide"			"260"
-		"tall"			"135"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"PaintBackgroundType"	"0"
-
-		"border"		"MainMenuBGBorder"
-
-		"InnerShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
-			"xpos"			"8"
-			"ypos"			"26"
-			"zpos"			"900"
-			"wide"			"244"
-			"tall"			"102"
-			"visible"		"1"	
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"paintborder"	"1"
-			"border"		"InnerShadowBorder"
-		}
-
-		"SteamFriendsList"
-		{
-			"ControlName"	"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"xpos"			"cs-0.5"
-			"ypos"			"rs1-8"
-			"zpos"			"501"
-			"wide"			"f10"
-			"tall"			"100"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-
-			"columns_count"	"2"
-			"inset_x"		"10"
-			"inset_y"		"5"
-			"row_gap"		"5"
-			"column_gap"	"10"
-			"restrict_width"	"0"
-
-			"friendpanel_kv"
-			{
-				"wide"		"110"
-				"tall"		"20"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-5"
-				"ypos"			"10"
-				"tall"			"f0"
-				"wide"			"4"
-				"zpos"			"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
-
-				"Slider"
-				{
-					"fgcolor_override"	"TanDark"
-				}
-
-				"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
-
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
-				}
-			}
-		}
-	}
-
 	"GeneralStoreButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -3086,7 +2985,7 @@
 		}
 	}
 
-	"ChangeServerButton"
+	"BgChangeServerButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ChangeServerButton"
@@ -3354,13 +3253,14 @@
 				}
 			}
 		}
-		"QuickplayButton"
+		
+		"QuickButton"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldname"		"QuickplayButton"
+			"fieldname"		"QuickButton"
 			"xpos"			"c-285"
 			"ypos"			"136"
-			"zpos"			"11"
+			"zpos"			"-8"
 			"wide"			"130"
 			"tall"			"36"
 			"visible"		"0"
