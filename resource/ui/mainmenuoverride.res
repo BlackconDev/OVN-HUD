@@ -2896,15 +2896,15 @@
             "sound_released"    "UI/buttonclickrelease.wav"
             
             "border_default"    "MainMenuButtonDefault"
-            "border_armed"      "MainMenuButtonArmed"
+            "border_armed"      " "
             "paintbackground"   "0"
             
             "defaultFgColor_override" "46 43 42 255"
-            "armedFgColor_override" "235 226 202 255"
+            "armedFgColor_override" "00 00 00 000"
             "depressedFgColor_override" "46 43 42 255"
             
             "image_drawcolor"   "117 107 94 255"
-            "image_armedcolor"  "235 226 202 255"
+            "image_armedcolor"  "00 00 00 000"
 			
 			"SubImage"
 			{
@@ -2959,79 +2959,15 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
+			"border_armed"		" "
 			"paintbackground"	"0"
 
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "00 00 00 000"
 			"depressedFgColor_override" "46 43 42 255"
 				
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-
-	"BgChangeServerButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ChangeServerButton"
-		"xpos"			"c-285"
-		"ypos"			"154"
-		"zpos"			"-16"
-		"wide"			"250"
-		"tall"			"26"
-		"visible"		"0"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"actionsignallevel"	"2"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"00 00 00 000"
 
 			"SubImage"
 			{
@@ -3084,15 +3020,15 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
+			"border_armed"		" "
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "00 00 00 000"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"00 00 00 000"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3110,26 +3046,25 @@
 	}
 	"MMDashboard"
 	{
-		"fieldName"				"MMDashboard"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"cs-0.5"
-		"ypos"					"45"
-		"zpos"					"-9"
-		"wide"					"f0"
-		"tall"					"f0"
-		"keyboardinputenabled"	"0"
-
-		"collapsed_height"	"0"
-		"expanded_height"	"270"
-		"resize_time"		"0"
+		"fieldName"             "MMDashboard"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "cs-0.5"
+        "ypos"                  "-5"
+        "zpos"                  "-5"
+        "wide"                  "f0"
+        "tall"                  "336"
+    
+        "collapsed_height"  "0"
+        "expanded_height"   "336"
+        "resize_time"       "0"
 		
 		"PlayButton"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayButton"
 			"xpos"			"c-285"
-			"ypos"			"109"
+			"ypos"			"159" 
 			"zpos"			"-9"
 			"wide"			"250"
 			"tall"			"26"
@@ -3193,7 +3128,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"MVMButton"
 			"xpos"			"c-160"
-			"ypos"			"136"
+			"ypos"			"186"
 			"zpos"			"5"
 			"wide"			"135"
 			"tall"			"36"
@@ -3259,7 +3194,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"QuickButton"
 			"xpos"			"c-285"
-			"ypos"			"136"
+			"ypos"			"186"
 			"zpos"			"-8"
 			"wide"			"130"
 			"tall"			"36"

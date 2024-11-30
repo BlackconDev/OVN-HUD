@@ -1,0 +1,9 @@
+
+//Fix bug
+wait 5; showconsole; wait; toggle mat_aaquality 0 1; hideconsole; wait 5
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg

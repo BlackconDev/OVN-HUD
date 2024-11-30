@@ -1,20 +1,26 @@
 "Resource/UI/MatchMakingDashboard.res"
 {
-	"MMDashboard"
+    "MMDashboard"
+    {
+        "fieldName"             "MMDashboard"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "cs-0.5"
+        "ypos"                  "-5"
+        "zpos"                  "-5"
+        "wide"                  "f0"
+        "tall"                  "336"
+    
+        "collapsed_height"  "0"
+        "expanded_height"   "336"
+        "resize_time"       "0"	
+	}
+	
+		"MMDBTopBarPin"
 	{
-		"fieldName"		"MMDashboard"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"50"
-		"zpos"			"-9"
-		"wide"			"f0"
-		"tall"			"270"
-		"keyboardinputenabled"	"0"
-
-		"collapsed_height"	"0"
-		"expanded_height"	"270"
-		"resize_time"	"0"	
+		"ControlName"   "Panel"
+		"xpos"			"0"
+		"ypos"			"-30"
 	}
 	
 	"TopBar"
@@ -23,11 +29,12 @@
 		"fieldName"		"TopBar"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"-8"
+		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"0"
+		//"pin_to_sibling"    "MMDBTopBarPin"	//TESTTTT
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -36,11 +43,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"c200"
-			"ypos"			"35"
-			"zpos"			"-6"
-			"wide"			"150"
-			"tall"			"35"
+			"xpos"			"cs-0.5"
+			"ypos"			"-50"
+			"zpos"			"111"
+			"wide"			"220"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -127,7 +134,7 @@
 				"fieldName"		"QueueText"
 				"xpos"			"33"
 				"ypos"			"1"
-				"wide"			"f50"
+				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
@@ -261,12 +268,12 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"JoinPartyLobbyContainer"
-			"xpos"			"c200"
-			"ypos"			"5"
-			"zpos"			"111"
-			"wide"			"140"
+			"xpos"			"cs-0.5"
+			"ypos"			"-50"
+			"zpos"			"110"
+			"wide"			"220"
 			"tall"			"f0"
-			"visible"		"0"
+			"visible"		"1"
 			"proportionaltoparent"	"1"
 
 			"OuterShadow"
@@ -357,6 +364,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
+
 		"QuitButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -469,6 +477,64 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
+				"drawcolor_override" "TanLight"
+			}
+		}
+	
+		"FindAGameButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"FindAGameButton"
+			"xpos"			"rs1-31"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"115"
+			"tall"			"f6"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"find_game"
+			"proportionaltoparent"	"1"
+			"labeltext"		"#MMenu_FindAGame"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"roundedcorners"	"1"
+			"textinsety"	"5"
+			"textinsetx"	"25"
+			"use_proportional_insets"	"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"armedBgColor_override"		"0 0 0 0"
+			"defaultBgColor_override"	"0 0 0 0"
+
+			"defaultFgColor_override" "0 0 0 0"
+			"armedFgColor_override" "0 0 0 0"
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"0 0 0 0"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"10"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_multiplayer"
 				"drawcolor_override" "TanLight"
 			}
 		}

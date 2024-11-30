@@ -90,20 +90,11 @@
 		"subimage"		"icon_whistle"
 		"tooltip"		"#MMenu_RequestCoach"
 	}
-
-	"ChangeServerButton"
-	{
-		"label"			"Start Playing!"
-		"command"		" "
-		"subimage"		"glyph_multiplayer"
-		"OnlyInGame"	"1"
-	}
 	"StartPlayingButton"
 	{
 		"label"			"Start Playing!"
 		"command"		" "
 		"subimage"		"glyph_multiplayer"
-		"OnlyAtMenu"	"1"
 	}
 	
 	"PlayButton"
