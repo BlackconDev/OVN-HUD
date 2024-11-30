@@ -63,7 +63,7 @@
     // Default: 0.2
     hud_escort_interp          
 //Fix bug
-wait 5; showconsole; wait; toggle mat_aaquality 0 1; hideconsole; wait 5
+wait 10; showconsole; wait; toggle mat_aaquality 0 1; hideconsole; wait 10
 
 // Setup custom controller
 exec joystick.cfg
