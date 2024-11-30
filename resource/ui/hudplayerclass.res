@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"20"	[$WIN32]
+		"xpos"			"c-310"	[$WIN32]
 		"ypos"			"r141"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"85"
@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9"		[$WIN32]
+		"xpos"			"c-325"		[$WIN32]
 		"ypos"			"r120"	[$WIN32]
 		"zpos"			"1"		
 		"wide"			"120"
