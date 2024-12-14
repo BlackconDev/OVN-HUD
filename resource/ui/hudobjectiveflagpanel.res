@@ -107,7 +107,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-48"
+		"xpos"			"c-42"
 		"ypos"			"r45"
 		"zpos"			"8"
 		"wide"			"75"
@@ -116,7 +116,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontMediumBold"
+		"font"			"PreussischeVI30"
+		"font_minmode"			"HudFontMediumBold"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -139,7 +140,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-47"
+		"xpos"			"c-41"
 		"ypos"			"r44"
 		"zpos"			"7"
 		"wide"			"75"
@@ -148,7 +149,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontMediumBold"
+		"font"			"PreussischeVI30"
+		"font_minmode"			"HudFontMediumBold"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -180,7 +182,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontMediumBold"
+		"font"			"PreussischeVI30"
+		"font_minmode"			"HudFontMediumBold"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -212,7 +215,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontMediumBold"
+		"font"			"PreussischeVI30"
+		"font_minmode"			"HudFontMediumBold"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -275,7 +279,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
+		"xpos"			"c-67"
 		"ypos"			"r25"
 		"zpos"			"4"
 		"wide"			"140"
@@ -286,7 +290,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"PreussischeVI15"
+		"font_minmode"			"HudFontSmall"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -309,7 +314,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-42"
+		"xpos"			"c-39"
 		"ypos"			"r19"
 		"zpos"			"3"
 		"wide"			"84"
@@ -345,7 +350,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-160"
+		"xpos"			"c-155"
 		"ypos"			"r72"
 		"zpos"			"5"
 		"wide"			"160"
@@ -380,7 +385,7 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-18"
+		"xpos"			"c3"
 		"ypos"			"r72"
 		"zpos"			"5"
 		"wide"			"160"
