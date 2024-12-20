@@ -301,7 +301,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"WELCOME BACK,"
 			"textAlignment"	"west"
-			"xpos"			"70"
+			"xpos"			"c-315"
 			"ypos"			"5"
 			"wide"			"300"
 			"tall"			"15"

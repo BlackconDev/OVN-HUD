@@ -227,7 +227,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"88"
+			"xpos"			"c-295"
 			"ypos"			"5"
 			"wide"			"f0"
 			"zpos"			"100"
@@ -251,7 +251,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"88"
+			"xpos"			"c-295"
 			"ypos"			"19"
 			"wide"			"195"
 			"zpos"			"100"
@@ -282,7 +282,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"70"
+			"xpos"			"c-260"
 			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
