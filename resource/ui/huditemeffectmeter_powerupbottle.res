@@ -1,14 +1,18 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Powerupbottle.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-250"	[$WIN32]
-		"ypos"			"r55"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"90"	[$WIN32]
+		"ypos"			"r100"	[$WIN32]
+		"xpos_minmode"	"r70"	[$WIN32]
+		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
+		"wide"			"100"
+		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -18,7 +22,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"0"
+		"ypos"			"r51"
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
@@ -29,7 +33,8 @@
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"		
+		"proportionalToParent"	"1"		
 	}
 	
 	"ItemEffectMeterLabel"
@@ -37,7 +42,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
-		"ypos"					"22"
+		"ypos"					"r25"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,6 +56,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"proportionalToParent"	"1"	
 	}
 
 	"ItemEffectMeter"
@@ -59,7 +65,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"25"
-		"ypos"					"23"
+		"ypos"					"r23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
@@ -73,16 +79,17 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"proportionalToParent"	"1"	
 	}					
 	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"5"
+		"xpos"					"20"
+		"ypos"					"r42"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"50"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -93,5 +100,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
-	}
+		"proportionalToParent"	"1"	
+	}					
 }

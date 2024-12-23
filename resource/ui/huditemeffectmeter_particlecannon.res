@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_Particlecannon.res"
 {
 	HudItemEffectMeter
 	{

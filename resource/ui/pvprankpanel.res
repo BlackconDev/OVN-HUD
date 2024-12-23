@@ -468,7 +468,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"c-90"
+				"xpos"			"c-118"
 				"ypos"			"5"
 				"zpos"			"-60"
 				"wide"			"255"
