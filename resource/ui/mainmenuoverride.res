@@ -419,7 +419,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"PvPRankPanel"
-		"xpos"			"c-475"
+		"xpos"			"c-295"
 		"ypos"			"-13"
 		"zpos"			"-11"
 		"wide"			"f0"

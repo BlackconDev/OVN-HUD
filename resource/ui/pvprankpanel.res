@@ -14,8 +14,9 @@
 		
 		if_mini
 		{
-			"visible" 		"0"
-			"xpos"			"99999"
+			"xpos"			"65"
+			"ypos"			"-50"
+			"zpos"			"3"		
 		}
 		"BelowModelParticlePanel"
 		{
@@ -34,8 +35,9 @@
 
 			if_mini
 			{
-				"visible" 		"0"
-				"xpos"			"99999"
+				"xpos"			"c-265"
+				"ypos"			"40"
+				"zpos"			"-1"
 			}
 
 			"ParticleEffects"
@@ -72,8 +74,9 @@
 
 			if_mini
 			{
-				"visible" 		"0"
-				"xpos"			"99999"
+				"xpos"			"c-265"
+				"ypos"			"40"
+				"zpos"			"0"	
 			}
 
 			"paintbackground"	"0"
@@ -92,12 +95,6 @@
 				"origin_y"		"0"
 				"origin_z"		"0"
 				"spotlight"	"1"
-
-				if_mini
-				{
-					"visible" 		"0"
-					"xpos"			"99999"
-				}
 
 				"animation"
 				{
@@ -136,8 +133,9 @@
 
 			if_mini
 			{
-				"visible" 		"0"
-				"xpos"			"99999"
+				"xpos"			"c-265"
+				"ypos"			"40"
+				"zpos"			"1"	
 			}
 
 			"ParticleEffects"
@@ -197,8 +195,9 @@
 			
 			if_mini
 			{
-				"visible" 		"0"
-				"xpos"			"99999"
+				"xpos"			"c-265"
+				"ypos"			"40"
+				"zpos"			"2"
 			}
 		}
 	}
@@ -208,7 +207,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"c-199"
+		"xpos"			"c-293"
 		"ypos"			"20"
 		"zpos"			"-25"
 		"wide"			"f0"
@@ -219,15 +218,16 @@
 
 		if_mini
 		{
-			"visible" 		"0"
-			"xpos"			"99999"
+			"xpos"			"c-199"
+			"ypos"			"20"
+			"zpos"			"-25"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"c-295"
+			"xpos"			"c-383"
 			"ypos"			"5"
 			"wide"			"f0"
 			"zpos"			"100"
@@ -242,8 +242,10 @@
 
 			if_mini
 			{
-				"visible"	"0"
-				"xpos"			"99999"
+				"xpos"			"c-295"
+				"ypos"			"5"
+				"wide"			"f0"
+				"zpos"			"100"
 			}
 		}
 
@@ -251,7 +253,7 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"c-295"
+			"xpos"			"99999"
 			"ypos"			"19"
 			"wide"			"195"
 			"zpos"			"100"
@@ -266,8 +268,10 @@
 
 			if_mini
 			{
-				"visible" 		"0"
-				"xpos"			"99999"
+				"xpos"			"c-294"
+				"ypos"			"19"
+				"wide"			"195"
+				"zpos"			"100"
 			}
 
 			"fonts"
@@ -297,8 +301,10 @@
 
 			if_mini
 			{
-				"visible" 		"0"
-				"xpos"			"99999"
+				"xpos"			"c-260"
+				"ypos"			"29"
+				"wide"			"195"
+				"zpos"			"100"
 			}
 
 			"fonts"
@@ -319,7 +325,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"c-325"
 			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -327,8 +333,7 @@
 
 			if_mini
 			{
-				"visible" 		"0"
-				"xpos"			"99999"
+				"xpos"			"c-295"
 			}
 
 			"XPBar"
@@ -344,8 +349,10 @@
 				
 				if_mini
 				{
-					"visible"		"0"
-					"xpos"			"99999"
+					"xpos"			"c-384"
+					"ypos"			"2"
+					"zpos"			"-10"
+					"wide"			"190"
 				}
 
 				"CurrentXPLabel"
@@ -367,8 +374,9 @@
 					
 					if_mini
 					{
-						"visible" 		"0"
-						"xpos"			"99999"
+						"xpos"			"0"
+						"ypos"			"rs1"
+						"zpos"			"0"
 					}
 				}
 
@@ -391,8 +399,9 @@
 					
 					if_mini
 					{
-						"visible" 		"0"
-						"xpos"			"99999"
+						"xpos"			"rs1"
+						"ypos"			"rs1"
+						"zpos"			"0"
 					}
 				}
 
@@ -406,6 +415,11 @@
 					"tall"			"7"
 					"proportionaltoparent"	"1"
 					
+					if_mini
+					{
+						"xpos"			"0"
+						"ypos"			"rs1-10"
+					}
 					"ProgressBar"
 					{
 						"ControlName"	"ProgressBar"
@@ -465,7 +479,9 @@
 
 				if_mini
 				{
-					"visible"		"0"
+					"xpos"			"c-180"
+					"ypos"			"5"
+					"zpos"			"-60"
 				}
 
 				"Frame"
